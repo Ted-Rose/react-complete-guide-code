@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/Home";
+import ProductsPage from "./pages/Products";
 
 // the variable has to be stored in a constant
 const router = createBrowserRouter([
@@ -9,6 +10,7 @@ const router = createBrowserRouter([
   // For that add folder pages, but you can use whatever name
   // you like for the folder
   { path: "/", element: <HomePage /> },
+  { path: "/products", element: <ProductsPage /> },
 ]);
 
 function App() {
