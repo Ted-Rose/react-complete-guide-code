@@ -22,6 +22,9 @@ function AuthForm() {
           <Link to={`?mode=${isLogin ? 'signup' : 'login'}`}>
             {isLogin ? 'Create new user' : 'Login'}
           </Link>
+          <Link to={`?mode=${isLogin ? 'signup' : 'login'}`}>
+            {isLogin ? "Create new user" : "Login"}
+          </Link>
           <button>Save</button>
         </div>
       </Form>
